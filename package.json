@@ -1,0 +1,33 @@
+{
+  "name": "virtualitour-api",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "apidoc": "*",
+    "client-sessions": "^0.7.0",
+    "mongoose": "*",
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.7",
+    "bcrypt": "^0.8.5",
+    "crypto": "0.0.3",
+    "hal": "^0.1.0",
+    "jsonwebtoken": "^5.0.5",
+    "mocha": "^2.3.3",
+    "mongoose": "^4.1.3",
+    "mongoose-pages": "*",
+    "nodemailer": "^2.0.0",
+    "oauth2-server": "^2.4.1",
+    "passport": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "q": "^1.4.1",
+    "restify": "3.x",
+    "restify-oauth2": "^4.0.3",
+    "should": "^7.1.1",
+    "supertest": "^1.1.0"
+  }
+}

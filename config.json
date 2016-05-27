@@ -1,0 +1,35 @@
+{
+	"server": {
+		"ip_addr": "127.0.0.1",
+		"port": "3000"
+	},
+	"db" : {
+		"dbPath": "mongodb://localhost/virtualitour",
+		"port": "27017"
+	},
+	"security": {
+		"secretToken": "superclavesecreta",
+	    "secretSession": "eg[isfd-8yF9-7w2315df{}+Ijsli;;to8"
+	},
+	"pagination": {
+		"defaultItemsPerPage": "3",
+		"defaultPageNumber": "1"
+	},
+	"s3_access" : {
+		"accessKeyId" : "AKIAIPGTJ2JETOA3G3MA",
+		"accessKey" : "JJ4gq7HVAITEEIEQAO/f1qjodnHw3KqU2SsIhRkH"
+	},
+	"aws_regions" : {
+		"south_america":"sa-east-1",
+		"eu_ireland": "eu-west-1",
+		"eu_frankfurt": "eu-central-1"
+	},
+	"email" : {
+		"service" : "Gmail",
+		"auth": {
+	        "user": "miguel87831@gmail.com",
+	        "pass": "dxhwvdmvfbjuzcgc"
+	    }
+	}
+
+}

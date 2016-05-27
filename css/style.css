@@ -1,0 +1,74 @@
+        #map-canvas{
+            width: 930px;
+            height: 370px;
+            background-color: blue;
+            overflow:hidden;
+        }
+        
+        .pov-canvas{
+            width: 450px;
+            height: 350px;
+            background-color: blue;
+            overflow:hidden;
+        }
+        
+        .imageList{
+            float:left;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        
+        #builTour{
+            float:right;
+        }
+        
+        .panel-image ~ .panel-footer a {
+            padding: 0px 10px;
+        	font-size: 1.3em;
+        	color: rgb(100, 100, 100);
+        }
+        
+        .panel-image-preview {
+            height:220px;
+            width:450px;
+        }
+        
+        .panel-links {
+              position: relative;
+              bottom: 0px;
+              top: -56px;
+              left: 170px;
+              width: 50%;
+              padding: 10px;
+        }
+        
+        .itemLink {
+            padding: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        
+        .itemLinkH {
+            background-color: cornflowerblue;
+        }
+        
+        .circle {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            border: 2px dashed #FFFFFF;
+            border-radius: 50px;
+            z-index: 99;
+            top: -195px;
+            left: 202px;
+        }
+        
+        .circle-in {
+            width: 17px;
+            height: 17px;
+            margin-top: 5px;
+            background: none;
+            margin-left: 5px;
+            border: 3px dashed #F1F1F1;
+            border-radius: 50px;
+        }

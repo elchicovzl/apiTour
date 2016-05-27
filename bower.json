@@ -1,0 +1,14 @@
+{
+  "name": "virtualitour",
+  "version": "0.0.1",
+  "authors": [
+    "Miguel Vizcaino <miguel87831@hotmail.com>"
+  ],
+  "description": "tours virtual",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.4.3",
+    "bootstrap-material-design": "0.3.0"
+  }
+}
